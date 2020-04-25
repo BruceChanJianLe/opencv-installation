@@ -21,10 +21,10 @@ sudo apt-get install libjpeg8-dev libtiff5 libjasper-dev libpng12-dev -y
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
 
 # Install libraries to allow us to use OpenCV user interface features
-sudo apt-get install libgtk2.0-dev
+sudo apt-get install libgtk2.0-dev -y
 
 # Install modules to optimize OpenCV commands
-sudo apt-get install libatlas-base-dev gfortran
+sudo apt-get install libatlas-base-dev gfortran -y
 
 # Install pip
 wget https://bootstrap.pypa.io/get-pip.py
