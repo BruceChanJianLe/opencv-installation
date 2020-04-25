@@ -42,7 +42,7 @@ Replace VERSION varaible with the version number you would like to install for O
 
 ```bash
 # Clone OpenCV and OpenCV contrib
-git clone https://github.comn/Itseez/opencv_contrib.git
+git clone https://github.com/Itseez/opencv_contrib.git
 cd opencv_contrib
 git checkout ${VERSION}
 
