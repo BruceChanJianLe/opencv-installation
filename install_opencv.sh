@@ -2,6 +2,12 @@
 # This script will install OpenCV {CHOOSE_A_VERSION} on your Ubuntu {TESTED_WITH_16.04}
 
 read -p "Please provide the version of OpenCV you would like to install..." VERSION
+
+if [ -z $VERSION ]
+then
+    VERSION=4.2.0
+fi
+
 read -p "Please press 0 to select simple installation and 1 for complicated installation" INSTALLATION
 
 if [ -z $INSTALLATION ]
