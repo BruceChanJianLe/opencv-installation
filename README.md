@@ -65,3 +65,5 @@ sudo make install
 # Linking all any dependecies
 sudo ldconfig
 ```
+
+For cmake > 3.10, it does not use the `-DCMAKE_INSTALL_PREFIX=/usr/local` anymore, please use the `make DESTDIR=/home/john install` instead. For more information please read this link https://cmake.org/cmake/help/v3.10/variable/CMAKE_INSTALL_PREFIX.html.
